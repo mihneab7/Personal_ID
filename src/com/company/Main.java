@@ -3,12 +3,15 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-    	int n=21;
-    	int m=12;
-    	int rez=(n%10)*10+(n/10);
-    	if (m==rez){
-    		System.out.println("true");
+    	int n=134526, c, t=0, s=0;
+    	while(n!=0) {
+    		c=n%10;
+    		t+=1;
+    		if(t%2==0) {
+    			s+=c;
+			}
+    		n/=10;
 		}
-    	else System.out.println("false");
+    	System.out.println(s);
 		}
     }

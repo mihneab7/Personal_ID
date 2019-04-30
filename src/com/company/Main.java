@@ -3,19 +3,18 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-    	int n=1234, c, m, t=0, sp=0, si=0;
-    	while(n!=0) {
-    		c=n%10;
-    		t+=1;
-    		if(t%2==0) {
-    			sp+=c;
-			}
-    		else {
-    			si+=c;
-			}
-    		n/=10;
-		}
-    	m=sp-si;
-    	System.out.println(m);
+    	char n='e';
+    	switch (n) {
+            default: System.out.println("Nu este punct cardinal");
+            break;
+            case 'n': System.out.println("Nord");
+            break;
+            case 's': System.out.println("Sud");
+            break;
+            case 'e': System.out.println("Est");
+            break;
+            case 'v': System.out.println("Vest");
+            break;
+        }
 		}
     }

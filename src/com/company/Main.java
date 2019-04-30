@@ -3,63 +3,42 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-//		int n=8;
-//		if (n<0||n>9) {
-//			System.out.println("numar gresit");
+//    	int n=12;
+//    	if (n<0||n>11) {
+//    		System.out.println("numar gresit");
 //		}
-//		else if (n==0) {
-//			System.out.println("zero");
+//    	else if (n==0||n==1||n==11) {
+//    		System.out.println("Iarna");
 //		}
-//		else if (n==1) {
-//			System.out.println("unu");
+//    	else if (n==2||n==3||n==4) {
+//    		System.out.println("Primavara");
 //		}
-//		else if (n==2) {
-//			System.out.println("doi");
+//    	else if (n==5||n==6||n==7) {
+//    		System.out.println("Vara");
 //		}
-//		else if (n==3) {
-//			System.out.println("trei");
+//    	else if (n==8||n==9||n==10) {
+//    		System.out.println("Toamna");
 //		}
-//		else if (n==4) {
-//			System.out.println("patru");
-//		}
-//		else if (n==5) {
-//			System.out.println("cinci");
-//		}
-//		else if (n==6) {
-//			System.out.println("sase");
-//		}
-//		else if (n==7) {
-//			System.out.println("sapte");
-//		}
-//		else if (n==8) {
-//			System.out.println("opt");
-//		}
-//		else if (n==9) {
-//			System.out.println("noua");
-//		}
-		int n=8;
+		int n=2;
 		switch (n) {
-			case 0: System.out.println("zero");
-			break;
-			case 1: System.out.println("unu");
-			break;
-			case 2: System.out.println("doi");
-			break;
-			case 3: System.out.println("trei");
-			break;
-			case 4: System.out.println("patru");
-			break;
-			case 5: System.out.println("cinci");
-			break;
-			case 6: System.out.println("sase");
-			break;
-			case 7: System.out.println("sapte");
-			break;
-			case 8: System.out.println("opt");
-			break;
-			case 9: System.out.println("noua");
-			break;
 			default: System.out.println("numar gresit");
+			break;
+			case 0:
+			case 1:
+			case 11: System.out.println("Iarna");
+			break;
+			case 2:
+			case 3:
+			case 4: System.out.println("Primavara");
+			break;
+			case 5:
+			case 6:
+			case 7: System.out.println("Vara");
+			break;
+			case 8:
+			case 9:
+			case 10: System.out.println("Toamna");
+			break;
 		}
 		}
     }
